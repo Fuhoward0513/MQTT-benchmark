@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # sample_t_lst=(1 2 3.3 100 1000)
-sample_t_lst=(10)
+sample_t_lst=(1000)
 # payload_lst=(8 80 200 500 1000 2000 1000000 5000000 10000000 20000000 30000000 50000000)
-# payload_lst=(2000)
-payload_lst=(8 80 200 500 1000 2000)
-sub_num=5
-pub_num=10
+payload_lst=(1000000)
+# payload_lst=(8 80 200 500 1000 2000)
+sub_num=1
+pub_num=1
 
 
 for sample_t in "${sample_t_lst[@]}"
